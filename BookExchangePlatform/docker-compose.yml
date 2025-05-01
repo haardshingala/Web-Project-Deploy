@@ -1,0 +1,11 @@
+services:
+  backend:
+    image: haard12/bookexchange-backend:latest
+    ports:
+      - "5000:5000"
+      
+
+  frontend:
+    image: haard12/bookexchange-frontend:latest
+    ports:
+      - "3000:80"

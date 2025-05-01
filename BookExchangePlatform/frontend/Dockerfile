@@ -27,3 +27,5 @@ EXPOSE 3000
 
 # Start the static file server
 CMD ["serve", "-s", "dist", "-l", "3000"]
+
+# docker image tag BookExchangePlatform/frontend:latest haard12/bookexchange-frontend:latest
